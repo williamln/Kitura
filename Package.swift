@@ -32,6 +32,7 @@ let package = Package(
     products: [
         .library(
             name: "Kitura",
+            type: .static,
             targets: ["Kitura"]
         )
     ],
